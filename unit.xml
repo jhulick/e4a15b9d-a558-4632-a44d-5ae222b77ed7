@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 80.0.3987 (Mac OS X 10.14.6)" package="unit" timestamp="2020-03-29T21:05:01" id="0" hostname="pn1716985.win.lanl.gov" tests="4" errors="1" failures="4" time="0.111">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.149 Safari/537.36"/>
+  </properties>
+  <testcase name="ApiService should send GET/ request to the API" time="0.029" classname="unit.ApiService">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at _createClass node_modules/@angular/core/@angular/core.es5.js:9529:1)
+    at _createProviderInstance$1 node_modules/@angular/core/@angular/core.es5.js:9503:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9488:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService should not ditch the API function (API Mock Test)" time="0.008" classname="unit.ApiService">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at _createClass node_modules/@angular/core/@angular/core.es5.js:9529:1)
+    at _createProviderInstance$1 node_modules/@angular/core/@angular/core.es5.js:9503:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9488:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent should request the API upon loading of application" time="0.058" classname="unit.AppComponent">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at _createClass node_modules/@angular/core/@angular/core.es5.js:9529:1)
+    at _createProviderInstance$1 node_modules/@angular/core/@angular/core.es5.js:9503:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9488:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent should print upon button click" time="0.016" classname="unit.AppComponent">
+    <failure type="">Error: No provider for HttpClient!
+    at injectionError node_modules/@angular/core/@angular/core.es5.js:1169:22)
+    at noProviderError node_modules/@angular/core/@angular/core.es5.js:1207:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull node_modules/@angular/core/@angular/core.es5.js:2649:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault node_modules/@angular/core/@angular/core.es5.js:2688:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_._getByKey node_modules/@angular/core/@angular/core.es5.js:2620:1)
+    at ReflectiveInjector_.webpackJsonp../node_modules/@angular/core/@angular/core.es5.js.ReflectiveInjector_.get node_modules/@angular/core/@angular/core.es5.js:2489:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9492:1)
+    at _createClass node_modules/@angular/core/@angular/core.es5.js:9529:1)
+    at _createProviderInstance$1 node_modules/@angular/core/@angular/core.es5.js:9503:1)
+    at resolveNgModuleDep node_modules/@angular/core/@angular/core.es5.js:9488:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

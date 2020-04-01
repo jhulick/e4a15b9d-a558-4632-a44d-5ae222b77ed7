@@ -1,0 +1,61 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.button {
+  font-size: 1.3em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu>li {
+  display: inline;
+}
+
+.menu>li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu>li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.fullwidth {
+  width: 60%;
+}
+
+li {
+  height: 50px;
+  width: 100%;
+}
+
+.info {
+  text-align: center;
+  width: 60%;
+}
+
+date h3, year h3 {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#fetch h4{
+  padding-top:50px;
+}
